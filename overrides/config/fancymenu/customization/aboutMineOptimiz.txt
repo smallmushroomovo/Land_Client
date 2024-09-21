@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = io.123smallmushroom.about
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1726918008862
+  last_edited_time = 1726932844625
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:f56b2bd6-365e-46d6-8213-1e85daf6a325-1726917985530] = [groups:][instances:]
+  [loading_requirement_container_meta:2face8d6-0d5e-47d7-a017-3b14421d1cca-1726932757666] = [groups:][instances:]
 }
 
 customization {
@@ -57,7 +57,7 @@ element {
 
 element {
   interactable = true
-  source = 本客户端用于游玩Land 3服%n%Minecraft版本: {"placeholder":"mcversion"}%n%基于MineOptimiz 1.18.2 Forge修改%n%客户端作者：Small__Mushroom
+  source = 本客户端用于游玩Land 3服%n%Minecraft版本: {"placeholder":"mcversion"}%n%客户端版本：{"placeholder":"mpuc:current-modpack-version"}%n%基于MineOptimiz 1.18.2 Forge修改%n%客户端作者：Small__Mushroom
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -89,7 +89,7 @@ element {
   x = -67
   y = -55
   width = 200
-  height = 55
+  height = 64
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
