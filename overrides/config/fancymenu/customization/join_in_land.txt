@@ -1,0 +1,128 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = com.gitee.smallmushroomovo.join_in_land
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1726918197397
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:31d78c4b-9f0b-4684-97b6-03e760a71313-1726918194122] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  button_element_executable_block_identifier = 6eb6941a-8f0a-4e68-abb2-f7dc156e13eb-1726917533704
+  [executable_action_instance:fd5b0fc7-f5c9-44aa-b0bf-e437e3c2790b-1726917549617][action_type:closegui] = 
+  [executable_block:6eb6941a-8f0a-4e68-abb2-f7dc156e13eb-1726917533704][type:generic] = [executables:fd5b0fc7-f5c9-44aa-b0bf-e437e3c2790b-1726917549617;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = 返回
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 1ca015d5-4cf7-4eb5-aec1-1bd009694aa0-1726917533704
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = bottom-centered
+  x = 14
+  y = -54
+  width = 100
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = b591df48-f42d-4570-be5a-f3851ea3a01c-1726917533704
+  [loading_requirement_container_meta:b591df48-f42d-4570-be5a-f3851ea3a01c-1726917533704] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 254131d6-3c8c-4606-99aa-5cf5885bb4d0-1726917556562
+  [executable_action_instance:5d8191ab-88a4-4da1-9019-f48b20bce24f-1726917576064][action_type:joinserver] = play.simpfun.cn:22054
+  [executable_block:254131d6-3c8c-4606-99aa-5cf5885bb4d0-1726917556562][type:generic] = [executables:5d8191ab-88a4-4da1-9019-f48b20bce24f-1726917576064;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = 加入
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = de2e5725-11b9-4f3f-aee9-2f67610b01a8-1726917556562
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = bottom-centered
+  x = -113
+  y = -54
+  width = 100
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 54ea131f-8776-4985-bcf0-85b18a384a6f-1726917556562
+  [loading_requirement_container_meta:54ea131f-8776-4985-bcf0-85b18a384a6f-1726917556562] = [groups:][instances:]
+}
+
+element {
+  interactable = true
+  source = 加入Land
+  source_mode = direct
+  shadow = true
+  scale = 1.0
+  base_color = #FFFFFFFF
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = true
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  quote_color = #818181FF
+  quote_indent = 8.0
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  bullet_list_indent = 8.0
+  bullet_list_spacing = 3.0
+  parse_markdown = true
+  element_type = text_v2
+  instance_identifier = f872d56e-72b9-4237-9262-a5023d8b14a8-1726917602474
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -23
+  y = -45
+  width = 50
+  height = 23
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 3308bb78-19a9-4d52-8d9a-d11e60a1cd40-1726917602474
+  [loading_requirement_container_meta:3308bb78-19a9-4d52-8d9a-d11e60a1cd40-1726917602474] = [groups:][instances:]
+}
+

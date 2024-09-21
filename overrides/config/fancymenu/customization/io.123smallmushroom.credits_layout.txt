@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = io.123smallmushroom.credits
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1726829234102
+  last_edited_time = 1726915707630
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:927543e4-2d29-4f7d-86e6-57dc789c2bce-1726829220055] = [groups:][instances:]
+  [loading_requirement_container_meta:4e2050da-4ad3-417c-abc2-826e52b1b55b-1726915702338] = [groups:][instances:]
 }
 
 customization {
@@ -140,34 +140,5 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = e0b89bc4-1f35-48e1-9eb0-f210603865d8-1726810904086
   [loading_requirement_container_meta:e0b89bc4-1f35-48e1-9eb0-f210603865d8-1726810904086] = [groups:][instances:]
-}
-
-element {
-  button_element_executable_block_identifier = ec49a9a6-6598-4f30-bdf9-9b51536d861c-1726811211697
-  [executable_action_instance:7974db0b-c818-46f4-a6ed-b8e46440c6a4-1726811250892][action_type:opengui] = io.123smallmushroom.licence
-  [executable_block:ec49a9a6-6598-4f30-bdf9-9b51536d861c-1726811211697][type:generic] = [executables:7974db0b-c818-46f4-a6ed-b8e46440c6a4-1726811250892;]
-  restartbackgroundanimations = true
-  loopbackgroundanimations = true
-  nine_slice_custom_background = false
-  nine_slice_border_x = 5
-  nine_slice_border_y = 5
-  label = 闭源与特殊许可证的模组
-  navigatable = true
-  element_type = custom_button
-  instance_identifier = 0cc93bcc-eb45-4f57-a4e5-ad01a2479017-1726811211697
-  appearance_delay = no_delay
-  appearance_delay_seconds = 1.0
-  fade_in = false
-  fade_in_speed = 1.0
-  anchor_point = mid-centered
-  x = -101
-  y = 10
-  width = 203
-  height = 20
-  stretch_x = false
-  stretch_y = false
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = b827911a-8eb7-4130-8b7e-906eb7e9c84b-1726811211697
-  [loading_requirement_container_meta:b827911a-8eb7-4130-8b7e-906eb7e9c84b-1726811211697] = [groups:][instances:]
 }
 

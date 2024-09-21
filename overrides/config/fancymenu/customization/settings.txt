@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = io.123smallmushroom.settings
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1726825148752
+  last_edited_time = 1726917153999
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:3a7abb92-b634-4178-882c-4b70918876cc-1726825133384] = [groups:][instances:83d1119b-8e4d-415d-947b-316f432c78c8-1710518155475;a29d8dda-fee7-45bc-b43e-903b50dfa83f-1710518630713;]
+  [loading_requirement_container_meta:5cc74382-5890-4b0e-aa2b-15034bf904be-1726917132722] = [groups:][instances:83d1119b-8e4d-415d-947b-316f432c78c8-1710518155475;a29d8dda-fee7-45bc-b43e-903b50dfa83f-1710518630713;]
   [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if][req_id:83d1119b-8e4d-415d-947b-316f432c78c8-1710518155475] = zh_cn
   [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:a29d8dda-fee7-45bc-b43e-903b50dfa83f-1710518630713] = legacy_settings:0
 }
@@ -37,7 +37,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  label = 关于MineOptimiz...
+  label = 关于客户端...
   navigatable = true
   element_type = custom_button
   instance_identifier = 67c79b92-f3a0-4402-84d1-6d2ae943bda21706181597448
@@ -48,7 +48,7 @@ element {
   anchor_point = mid-centered
   x = -146
   y = -50
-  width = 133
+  width = 293
   height = 19
   stretch_x = false
   stretch_y = false
@@ -59,7 +59,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 7ec31592-24f2-489d-a92e-2954ece44647-1710515396741
-  [executable_action_instance:df70abea-fe02-4c8c-9e23-f2c2eb678799-1710515396741][action_type:openlink] = https://github.com/MineOptimiz-Team/MineOptimiz-3rd/issues
+  [executable_action_instance:df70abea-fe02-4c8c-9e23-f2c2eb678799-1710515396741][action_type:opengui] = com.gitee.smallmushroomovo.bugreports
   [executable_block:7ec31592-24f2-489d-a92e-2954ece44647-1710515396741][type:generic] = [executables:df70abea-fe02-4c8c-9e23-f2c2eb678799-1710515396741;]
   restartbackgroundanimations = true
   loopbackgroundanimations = true
@@ -75,9 +75,9 @@ element {
   fade_in = false
   fade_in_speed = 1.0
   anchor_point = mid-centered
-  x = 10
+  x = -146
   y = -19
-  width = 138
+  width = 294
   height = 20
   stretch_x = false
   stretch_y = false
@@ -113,64 +113,6 @@ element {
   stay_on_screen = false
   element_loading_requirement_container_identifier = a4709923-0a8a-4fcb-82ab-5aeff5156eb8-1710515396742
   [loading_requirement_container_meta:a4709923-0a8a-4fcb-82ab-5aeff5156eb8-1710515396742] = [groups:][instances:]
-}
-
-element {
-  button_element_executable_block_identifier = d7ea9e9c-5fd0-42c3-a8a5-35dbae6d063e-1710515396742
-  [executable_action_instance:f4f0f6f3-3588-4b5c-81b1-ed4d1fccbbdd-1710515396742][action_type:opengui] = io.123smallmushroom.engmode
-  [executable_block:d7ea9e9c-5fd0-42c3-a8a5-35dbae6d063e-1710515396742][type:generic] = [executables:f4f0f6f3-3588-4b5c-81b1-ed4d1fccbbdd-1710515396742;]
-  restartbackgroundanimations = true
-  loopbackgroundanimations = true
-  nine_slice_custom_background = false
-  nine_slice_border_x = 5
-  nine_slice_border_y = 5
-  label = English Support of GUI
-  navigatable = true
-  element_type = custom_button
-  instance_identifier = ad9f1553-b6a5-43d5-86d2-95b1bcde31e31706182912577
-  appearance_delay = no_delay
-  appearance_delay_seconds = 1.0
-  fade_in = false
-  fade_in_speed = 1.0
-  anchor_point = mid-centered
-  x = -146
-  y = -19
-  width = 133
-  height = 20
-  stretch_x = false
-  stretch_y = false
-  stay_on_screen = false
-  element_loading_requirement_container_identifier = 7c42d46b-c26a-463c-8f3e-ba94b7f38e2c-1710515396742
-  [loading_requirement_container_meta:7c42d46b-c26a-463c-8f3e-ba94b7f38e2c-1710515396742] = [groups:][instances:]
-}
-
-element {
-  button_element_executable_block_identifier = ff489a36-c88b-4c3b-b843-44bb76f5cc54-1710515396742
-  [executable_action_instance:2ee22d1f-f135-4291-ba23-1787a2425f43-1710515396742][action_type:opengui] = io.123smallmushroom.update
-  [executable_block:ff489a36-c88b-4c3b-b843-44bb76f5cc54-1710515396742][type:generic] = [executables:2ee22d1f-f135-4291-ba23-1787a2425f43-1710515396742;]
-  restartbackgroundanimations = true
-  loopbackgroundanimations = true
-  nine_slice_custom_background = false
-  nine_slice_border_x = 5
-  nine_slice_border_y = 5
-  label = 更新
-  navigatable = true
-  element_type = custom_button
-  instance_identifier = cc55abd7-e2a2-4d91-b890-f08f2ed8f59b1706344029842
-  appearance_delay = no_delay
-  appearance_delay_seconds = 1.0
-  fade_in = false
-  fade_in_speed = 1.0
-  anchor_point = mid-centered
-  x = 9
-  y = -51
-  width = 138
-  height = 20
-  stretch_x = false
-  stretch_y = false
-  stay_on_screen = false
-  element_loading_requirement_container_identifier = 0e1c1a14-b138-4d0e-b686-fb008fb8c056-1710515396742
-  [loading_requirement_container_meta:0e1c1a14-b138-4d0e-b686-fb008fb8c056-1710515396742] = [groups:][instances:]
 }
 
 element {

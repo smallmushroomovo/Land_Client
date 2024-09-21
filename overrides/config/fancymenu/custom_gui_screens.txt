@@ -1,6 +1,7 @@
 type = custom_gui_screens
 
 overridden_screens {
+  net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen = com.gitee.smallmushroomovo.join_in_land
 }
 
 custom_gui {
@@ -23,7 +24,7 @@ custom_gui {
 
 custom_gui {
   identifier = io.123smallmushroom.about
-  title = 关于MineOptimiz/About MineOptimiz
+  title = 关于客户端
   allow_esc = true
   transparent_world_background = true
   transparent_world_background_overlay = true
@@ -67,8 +68,17 @@ custom_gui {
 }
 
 custom_gui {
+  identifier = com.gitee.smallmushroomovo.bugreports
+  title = 
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = true
+  pause_game = false
+}
+
+custom_gui {
   identifier = io.123smallmushroom.settings
-  title = MineOptimiz设置/MineOptimiz Settings
+  title = 客户端设置
   allow_esc = true
   transparent_world_background = true
   transparent_world_background_overlay = true
@@ -94,21 +104,21 @@ custom_gui {
 }
 
 custom_gui {
-  identifier = io.123smallmushroom.credits
-  title = 鸣谢与著作权说明
-  allow_esc = true
-  transparent_world_background = true
-  transparent_world_background_overlay = true
-  pause_game = false
-}
-
-custom_gui {
   identifier = io.123smallmushroom.keysettings
   title = 键位设置
   allow_esc = true
   transparent_world_background = true
   transparent_world_background_overlay = true
   pause_game = true
+}
+
+custom_gui {
+  identifier = io.123smallmushroom.credits
+  title = 鸣谢与著作权说明
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = true
+  pause_game = false
 }
 
 custom_gui {
@@ -139,6 +149,15 @@ custom_gui {
 }
 
 custom_gui {
+  identifier = com.gitee.smallmushroomovo.join_in_land
+  title = 
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = true
+  pause_game = true
+}
+
+custom_gui {
   identifier = io.123smallmushroom.jubao
   title = 彩蛋
   allow_esc = true
@@ -154,6 +173,15 @@ custom_gui {
   transparent_world_background = true
   transparent_world_background_overlay = true
   pause_game = true
+}
+
+custom_gui {
+  identifier = com.gitee.smallmushroomovo.cannotchangelanguage
+  title = 
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = true
+  pause_game = false
 }
 
 custom_gui {

@@ -12,9 +12,6 @@ net.minecraft.client.gui.screens.OptionsScreen {
 net.minecraft.client.gui.screens.TitleScreen {
 }
 
-net.minecraft.client.gui.screens.controls.ControlsScreen {
-}
-
-com.mrcrayfish.controllable.client.gui.ControllerSelectionScreen {
+net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen {
 }
 
